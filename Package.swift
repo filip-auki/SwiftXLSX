@@ -15,7 +15,7 @@ let package = Package(
             targets: ["SwiftXLSX"]),
     ],
     dependencies: [
-        .package(name: "ZipArchive", url: "https://github.com/ZipArchive/ZipArchive.git", from: "2.3.0")
+        .package(name: "ZipArchive", url: "https://github.com/filip-auki/ZipArchive", .branch("master"))
     ],
     targets: [
         .target(
